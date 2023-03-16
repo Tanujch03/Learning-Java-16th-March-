@@ -1,16 +1,16 @@
+
 import java.util.Scanner;
-
 public class reverse {
-
     public static void main(String[] args) {
-        new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         int num = 45536;
-        int rev = false;
 
-        int temp;
-        for(temp = 0; num > 0; num /= 10) {
-            int rev = num % 10;
-            temp = temp * 10 + rev;
+        int rev = 0;
+        int temp = 0;
+        while (num > 0) {
+            rev = num % 10;//6,3,5,5
+            temp = temp*10+rev;
+            num = num / 10;//4
         }
 
         System.out.println(temp);
