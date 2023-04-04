@@ -9,6 +9,7 @@ public class arrayswap {
         ArrayList<ArrayList<Integer>> list  = new ArrayList<>();
         int[] arr = {1,2,3,4,5};
         swap(arr,0,1);
+        swap(arr,1,2);
 
 
 
