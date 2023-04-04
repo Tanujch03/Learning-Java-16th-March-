@@ -7,7 +7,9 @@ public class printalphabets {
         for(int i=0;i<26;i++)
         {
             char b =(char)('a'+i);
-            System.out.print(b+" ");
+            a = a + b;
+
         }
+        System.out.print(a+" ");
     }
 }
