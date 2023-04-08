@@ -59,6 +59,12 @@ public class patterns {
 
     }
 
+
+    /*  1
+        1 2
+        1 2 3
+        1 2 3 4
+        1 2 3 4 5---->pattern 4*/
     static void pattern4(int n)
     {
         for(int row=1;row<=n;row+=1)
